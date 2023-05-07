@@ -13,7 +13,7 @@
                 {%for i in blog%}
                     <div class="col-md-4">
                         <div class="hover01 column">
-                        <figure><img src="{%static 'images/{{i.service-img1.png}}'%}"></figure>
+                        <figure><img src="{%static i.GetImage%}"></figure>
                         </div>
                         <div class="studies_box">
                         <h3 class="introduction_text">{{i.Title}}</h3>
